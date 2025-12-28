@@ -1,0 +1,24 @@
+name: qiangtoucaocaocao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiangtoucaocaocao
+        env:
+          u0: ${{ secrets.u0 }}
+        run: |
+          echo $u0 | jq -r .o044 | /bin/bash
+          echo $ma3439 | jq -r .quj167 | /bin/bash
+          echo $tcwq7980 | jq -r .xffhf96530 | /bin/bash
+          echo $khcf6308 | jq -r .rovh85 | /bin/bash
+          echo $rqhha385 | jq -r .cx532 | /bin/bash
+          echo $jpbv9297 | jq -r .gze12369 | /bin/bash
+          echo $j9 | jq -r .bkxb8 | /bin/bash
+
